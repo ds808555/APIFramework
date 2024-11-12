@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-12T12:08:29 IST" name="Default suite" finished-at="2024-11-12T12:08:40 IST" duration-ms="11226">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7a35b0f5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-12T12:08:29 IST" name="Default test" finished-at="2024-11-12T12:08:40 IST" duration-ms="11226">
+      <class name="cucumber.Options.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumber.Options.TestRunner@7a35b0f5]" started-at="2024-11-12T12:08:29 IST" name="setUpClass" finished-at="2024-11-12T12:08:29 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6e7e0259]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7a35b0f5]" started-at="2024-11-12T12:08:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-12T12:08:37 IST" duration-ms="7469" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if Place is being Succesfully added using AddPlaceAPI"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Place API's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumber.Options.TestRunner@7a35b0f5]" started-at="2024-11-12T12:08:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-12T12:08:40 IST" duration-ms="2864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if Delete Place functionality is working"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating Place API's"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumber.Options.TestRunner@7a35b0f5]" started-at="2024-11-12T12:08:40 IST" name="tearDownClass" finished-at="2024-11-12T12:08:40 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber.Options.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
